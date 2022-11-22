@@ -1,3 +1,3 @@
-worker: python3 -m VegetaRobot
-web: python3 -m VegetaRobot
-ps:scale worker=1
+worker: python3 -m Millie
+web: python3 -m Millie
+ps:scale worker=2
