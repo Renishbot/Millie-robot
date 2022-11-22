@@ -81,12 +81,13 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
+PM_START_TEXT = """ HELLO dude myself Millie
+You can call me 011, enola ,el what ever you want
 
-~~ *I'm made with Saiyans blood* ~~
+~~ *I'm a powerful group manager bot * ~~
 
-~ *Wanna see my commands*[❗]({})
-*below click the help button!* ~
+~ *To see my power*[❗]({})
+*click the help button!* ~
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """ 
@@ -98,12 +99,12 @@ buttons = [
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
+                       InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/r_from_rgi_support"),
+                       InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/millie_robot_update"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text="RMvzZ", url=f"https://t.me/REQUEST_MOvizzz_z"),
+                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/r_from_rgi"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
