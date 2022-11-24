@@ -1,15 +1,15 @@
 {
-       "name": "Vegeta",
+       "name": "Millie",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/279aabde88baf84afeaee.jpg",
+      "logo": "https://renish.rplayrenishamer.workers.dev/0:/Millie/Millie_10.jpeg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Vegeta"
+         "Millie"
       ],   
-   "repository": "https://github.com/ctzfamily/vegetarobot",
+   "repository": "https://github.com/Jaltahai/Millie-robot",
    "addons": [
       {
          "options": {
@@ -55,27 +55,27 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "VegetaSupport"
+         "value": "r_from_rgi_support"
       },
       "UPDATES_CHANNEL": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "VegetaUpdates"
+         "value": "millie_robot_update"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001547941154"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001547941154"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1491497760"
+         "value": "1927155351"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,22 +89,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1491497760"
+         "value": "1927155351 5570402782 1733484689 1061059757"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1491497760"
+         "value": "1927155351 5570402782 1733484689 1061059757"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1927155351 5570402782 1733484689 1061059757"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1927155351 5570402782 1733484689 1061059757"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -142,7 +142,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
          "required": false,
-         "value": "https://t.me/PegasusSupportOfficial"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
