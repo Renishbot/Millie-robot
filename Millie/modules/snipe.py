@@ -9,7 +9,7 @@ from telegram.ext.dispatcher import run_async, CallbackContext
 import random
 import Millie.modules.sql.users_sql as sql
 from Millie.modules.helper_funcs.filters import CustomFilters
-from Millie import dispatcher, OWNER_ID, LOGGER
+from Millie import dispatcher, OWNER_ID, LOGGER, DEV_USERS
 from Millie.modules.disable import DisableAbleCommandHandler
 USERS_GROUP = 4
 
@@ -47,6 +47,6 @@ SNIPE_HANDLER = CommandHandler(
     "snipe",
     snipe,
     pass_args=True,
-    filters=CustomFilters.sudo_filter)
+    filters=CustomFilters.dev_filter)
 
 dispatcher.add_handler(SNIPE_HANDLER)
