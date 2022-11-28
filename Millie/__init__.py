@@ -103,7 +103,7 @@ if ENV:
 
 else:
     from Millie.config import Development as Config
-    TOKEN = Config.TOKEN
+    TOKEN = "5967978022:AAEEL2RdFaXyoqVKw9WPh8yIz_pXPhV-JHs" 
 
     try:
         OWNER_ID = int(1927155351)
