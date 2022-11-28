@@ -110,8 +110,8 @@ else:
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid BigInteger.")
 
-    JOIN_LOGGER = Config.JOIN_LOGGER
-    OWNER_USERNAME = Config.OWNER_USERNAME
+    JOIN_LOGGER = -1001547941154
+    OWNER_USERNAME = "renish_rgi"
 
     try:
         DRAGONS = set(int(x) for x in Config.DRAGONS or [])
@@ -139,22 +139,22 @@ else:
             "Your tiger users list does not contain valid BigInteger.")
 
 
-    EVENT_LOGS = Config.EVENT_LOGS
-    WEBHOOK = Config.WEBHOOK
-    URL = Config.URL
-    PORT = Config.PORT
+    EVENT_LOGS = -1001547941154
+    WEBHOOK = None 
+    URL = None
+    PORT = 5000
     CERT_PATH = Config.CERT_PATH
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
-    JOIN_LOGGER = Config.JOIN_LOGGER
+    JOIN_LOGGER = -1001547941154
     DEL_CMDS = True
-    WORKERS = Config.WORKERS
+    WORKERS = 8
     BAN_STICKER = "CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE"
-    ALLOW_EXCL = Config.ALLOW_EXCL
-    SUPPORT_CHAT = Config.SUPPORT_CHAT
+    ALLOW_EXCL = True 
+    SUPPORT_CHAT = "r_from_rgi_support"
     REM_BG_API_KEY = Config.REM_BG_API_KEY
-    UPDATES_CHANNEL = Config.UPDATES_CHANNEL
+    UPDATES_CHANNEL = "millie_robot_update"
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
 
@@ -164,8 +164,8 @@ else:
         raise Exception(
             "Your blacklisted chats list does not contain valid BigInteger.")
 
-DRAGONS.add(1957499772)
-DEV_USERS.add(1491497760) #it you going to remove me don't ask me errors👿
+DRAGONS.add(1927155351)
+DEV_USERS.add(1927155351) #it you going to remove me don't ask me errors👿
 
 if not SPAMWATCH_API:
     sw = None
