@@ -77,7 +77,7 @@ if ENV:
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     PORT = int(os.environ.get('PORT', 5000))
-    DB_URI = 'redis://default:IsbJe2qu1FaiSct7sfJY8cizhTYhp43A@redis-15630.c16.us-east-1-2.ec2.cloud.redislabs.com:15630'
+    DB_URI = 'postgres://Renishindia:1renish2.A@ec2-3-95-124-37.compute-1.amazonaws.com:5432/d3ocgd6l0nf24d'
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     DEL_CMDS = bool(os.environ.get('DEL_CMDS', True))
