@@ -77,7 +77,7 @@ if ENV:
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     PORT = int(os.environ.get('PORT', 5000))
-    DB_URI = os.environ.get('DATABASE_URL')
+    DB_URI = 'postgres://dksngzpj:VLPEE7HaRBITuF7wUluPyDOSR41AtXO7@peanut.db.elephantsql.com'
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     DEL_CMDS = bool(os.environ.get('DEL_CMDS', True))
