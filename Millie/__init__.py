@@ -176,6 +176,7 @@ else:
 
 from Millie.config import ARQ_API_KEY, ARQ_API_URL
 
+TOKEN = '5967978022:AAEEL2RdFaXyoqVKw9WPh8yIz_pXPhV-JHs'
 
 aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
