@@ -8,6 +8,14 @@ from Python_ARQ import ARQ
 import telegram.ext as tg
 from pyrogram import Client, errors, __version__ as pyrover
 from telethon import TelegramClient
+from aiohttp import web
+from .route import routes
+
+
+async def web_server():
+    web_app = web.Application(client_max_size=30000000)
+    web_app.add_routes(routes)
+    return web_app
 
 pyrogram_version = pyrover
 
