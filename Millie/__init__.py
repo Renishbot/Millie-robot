@@ -114,8 +114,8 @@ else:
     OWNER_USERNAME = Config.OWNER_USERNAME
 
     try:
-        DRAGONS = set(int(x) for x in Config.DRAGONS or ['1927155351 5570402782 1733484689 1061059757'])
-        DEV_USERS = set(int(x) for x in Config.DEV_USERS or ['1927155351 5570402782 1733484689 1061059757'])
+        DRAGONS = set(int(x) for x in Config.DRAGONS or [])
+        DEV_USERS = set(int(x) for x in Config.DEV_USERS or ['5570402782 1733484689 1061059757'])
     except ValueError:
         raise Exception(
             "Your sudo or dev users list does not contain valid BigInteger.")
