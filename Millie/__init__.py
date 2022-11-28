@@ -156,7 +156,7 @@ else:
     REM_BG_API_KEY = Config.REM_BG_API_KEY
     UPDATES_CHANNEL = "millie_robot_update"
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
-    SPAMWATCH_API = Config.SPAMWATCH_API
+    SPAMWATCH_API = 'VWFUxtmR2dFHLpAGLAhh630bHcODm3E35d5bqUHUfpsQqqOc8iFknZUXMgS5Te2g'
 
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
