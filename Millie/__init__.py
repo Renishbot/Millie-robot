@@ -191,7 +191,7 @@ TOKEN = '5967978022:AAEEL2RdFaXyoqVKw9WPh8yIz_pXPhV-JHs'
 aiohttpsession = ClientSession()
 NAME = TOKEN.split(":")[0]
 telethn = TelegramClient(
-    NAME, get_int_key("APP_ID", required=True), get_str_key("APP_HASH", required=True)
+    NAME, API_ID, API_HASH
 )
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
