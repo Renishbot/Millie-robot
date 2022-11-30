@@ -85,7 +85,7 @@ if ENV:
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     PORT = int(os.environ.get('PORT', 5000))
-    DB_URI = 'postgres://rstlidfslvpler:c939dd5fcf352ed8c3968e33c1e184404769c02e32b4e077a92301d1c555bdba@ec2-3-95-124-37.compute-1.amazonaws.com:5432/d3ocgd6l0nf24d'
+    DB_URI = 'postgres://uzrnuwgb:yBfwB0dYp88IZZ-5soWjXquQZOCydKT8@lucky.db.elephantsql.com/uzrnuwgb'
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     DEL_CMDS = bool(os.environ.get('DEL_CMDS', True))
