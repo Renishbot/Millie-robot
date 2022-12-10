@@ -733,5 +733,9 @@ def main():
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    main = web.AppRunner(await web_server())
+        await main.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(main, bind_address, 8080).start()
     telethn.start(bot_token=TOKEN)
     main()
