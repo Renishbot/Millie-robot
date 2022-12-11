@@ -220,7 +220,7 @@ print("Starting Pyrogram Client")
 pgram.start()
 
 print("Aquiring BOT Client Info")
-
+telethn.start(bot_token=TOKEN)
 
 bottie = pgram.get_me()
 
