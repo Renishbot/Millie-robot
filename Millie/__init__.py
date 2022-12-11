@@ -198,7 +198,7 @@ arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
 telethn = TelegramClient("Vegeta", API_ID, API_HASH)
 pgram = Client("Millie", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-dispatcher = updater.dispatcher
+dispatcher = pgram.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(['1927155351 5570402782 1733484689 1061059757'])
