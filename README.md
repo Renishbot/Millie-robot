@@ -35,7 +35,23 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 ## Special Credits
 - Kurumibot - base
 - Image-Editorbot - module
+- ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
+Get your Necessary Variables
+Upgrade and Update by : sudo apt-get update && sudo apt-get upgrade -y
+Install required packages by : sudo apt-get install python3-pip -y
+Install pip by : sudo pip3 install -U pip
+Clone the repository by : git clone https://github.com/Renishbot/Millie-robot && cd Millie-robot
+Install/Upgrade setuptools by : pip3 install --upgrade pip setuptools
+Install requirements by : pip3 install -U -r requirements.txt
+Fill your variables in config by : vi Millie-robot/config.py
+Press I on the keyboard for editing config
 
+Press Ctrl+C when you're done with editing config and :wq to save the config
+
+Install tmux to keep running your bot when you close the terminal by : sudo apt install tmux && tmux
+Finally run the bot by : python3 -m Millie
+For getting out from tmux session
+Press Ctrl+b and then d
 
 ## REPO MADE BY [Millie (:](https://renish.rplayrenishamer.workers.dev/0:/Millie/Millie_10.jpeg) | `ᴏᴡɴᴇʀ`
 
