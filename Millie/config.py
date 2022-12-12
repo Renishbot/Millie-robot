@@ -47,7 +47,7 @@ class Config(object):
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
-    WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
+    WORKERS = 10  # Number of subthreads to use. Set as number of threads your processor uses
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
