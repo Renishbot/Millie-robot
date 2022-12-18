@@ -7,6 +7,8 @@ import re
 from sys import argv
 from typing import Optional
 from pyrogram import filters
+from aiohttp import web
+from Millie import web_server
 
 from Millie import (
     ALLOW_EXCL,
@@ -51,6 +53,8 @@ from telegram.ext import (
 )
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
+from aiohttp import web
+from Millie import web_server
 
 
 def get_readable_time(seconds: int) -> str:
@@ -731,5 +735,9 @@ def main():
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    main = web.AppRunner(await web_server())
+        await main.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(main, bind_address, 8080).start()
     telethn.start(bot_token=TOKEN)
     main()
