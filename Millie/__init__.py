@@ -31,6 +31,10 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[logging.FileHandler('log.txt'),
               logging.StreamHandler()],
+    app = web.AppRunner(await web_server())
+        await app.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, 8080).start()
     level=logging.INFO)
 
 LOGGER = logging.getLogger(__name__)
@@ -228,3 +232,6 @@ BOT_ID = bottie.id
 BOT_USERNAME = bottie.username
 BOT_NAME = bottie.first_name
 BOT_MENTION = bottie.mention
+
+app = Bot()
+app.run()
